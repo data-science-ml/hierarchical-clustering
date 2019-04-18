@@ -32,7 +32,7 @@ Fork and clone this repository
 
 #### Function 1, `pdist`
 
-[Documentation]: https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html
 
 ```python
 # run this code after importing pdist, look at its output
@@ -47,7 +47,7 @@ The output from `my_pdist` should be the same as `pdist`.
 
 #### Function 2, `squareform`
 
-[Documentation]: https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.squareform.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.squareform.html
 
 ```python
 # run this code after importing squareform, look at its output
@@ -62,20 +62,18 @@ The output from `my_squareform` should be the same as `squareform`.
 
 #### Function 3, `linkage`
 
-[Documentation]: https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html
 
 ```python
-# run each line below after importing linkage, look at its output
-linkage(matrix, method='complete', metric='euclidean')
+# run the line below after importing linkage, look at its output
 linkage(matrix, method='single', metric='euclidean')
-linkage(matrix, method='average', metric='euclidean')
 
 # now, make your own function
 def my_linkage(arguments):
   pass
 ```
 
-In the above code, you are implementing one function, `linkage`, but using different various values for the `method` parameter. The output from each function call of `my_linkage` should be the same as the calls to `linkage`.
+The output from `my_linkage` should be the same as `linkage`.
 
 #### Complete
 
